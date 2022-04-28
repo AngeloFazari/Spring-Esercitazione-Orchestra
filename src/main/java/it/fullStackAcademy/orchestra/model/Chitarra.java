@@ -1,8 +1,12 @@
 package it.fullStackAcademy.orchestra.model;
 
+import org.springframework.stereotype.Component;
+
+
 public class Chitarra extends StrumentoAstratto{
 
-	protected Chitarra(String nomeStrumento) {
+	
+	public Chitarra(String nomeStrumento) {
 		super(nomeStrumento);
 	}
 
